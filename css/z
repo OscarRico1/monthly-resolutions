@@ -1,0 +1,119 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+.chris {
+     border-radius: 100px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+    }  
+
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
+
+#header {
+     
+}
+
+#main {
+     background: white;
+     position: relative;
+     left: 50px;
+     display: block;
+     width: 600px;
+     padding: 50px;
+     float: left;
+}
+
+#sidebar {
+     background: white;
+     width: 300px;
+     float: right;
+     padding: 50px;
+     margin: 0 150 0 0;     
+   }      
+
+#footer {
+     margin: 0 0 0 200px;
+}
+
+.subtitle {
+     color: lightgray;
+}
+
+h1 {
+     margin: 0 10px 0 0;
+     font-family: 'Lato', sans-serif;
+     font-size: 50px;
+     line-height:0px;
+}
+   
+h5 {
+     margin: 0 0 0 0;
+     font-family: 'Lato', sans-serif;
+     line-height:70px;
+}
+
+h2 {
+     margin: 0 0 0 -25px;
+     font-family: 'Lato', sans-serif;
+     line-height: 50px;
+}
+
+img {
+     margin: 0 0 0 -25px;
+}
+
+p {
+     margin: 0 0 0 -25px;
+     font-family: 'Lato', sans-serif;
+}
+
+hr {
+     border: 1px solid lightgray;
+     background: lightgray;
+     width: 100;
+}
+
+a {
+	color: #fc7c27;
+	text-decoration: none;
+     font-family: 'Lato', sans-serif;
+}
+
